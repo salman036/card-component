@@ -1,0 +1,44 @@
+.table__input{
+    border: none;
+    padding: 5px 7px;
+    width: 15rem;
+    background-color: #ECECEC;
+}
+
+/* .table__input:disabled{
+    border: none;
+    background-color: white;
+} */
+
+tr:nth-child(even)  .table__input{
+    background-color: white;
+  }
+
+  tr:nth-child(even):hover .table__input{
+    background-color: #ECECEC;
+  }
+
+.table__setting{
+    position: relative;
+    background-color: white;
+    border: none;
+}
+
+.table__edit_bt{
+    position: absolute;
+    top: -2.8rem;
+    right: 3rem;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.table__body{
+    border: none;
+}
+
+.table_status_button{
+
+}
+
+

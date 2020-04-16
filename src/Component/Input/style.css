@@ -1,0 +1,13 @@
+.card__stack__input{
+    width: 100%;
+    padding: 1rem 2rem;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    margin-top: 1rem;
+}
+
+.card__stack__input::placeholder{
+    font-size: 16px;
+    color: black;
+}

@@ -1,0 +1,15 @@
+.table__link::placeholder{
+    color: blue;
+}
+
+.table__link{
+    color: blue;
+}
+
+tr:nth-child(even)  .table__input{
+    background-color: white;
+  }
+
+  tr:nth-child(even):hover .table__input{
+    background-color: #ECECEC;
+  }

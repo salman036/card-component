@@ -1,0 +1,43 @@
+.form{
+    display: flex;
+    
+}
+
+.personel{
+    flex: 50%;
+    margin-right: 1rem;
+}
+
+.official{
+    flex: 50%;
+}
+
+.table__btn__status{
+    background-color: orangered;
+    border: none;
+    padding: 1px 10px;
+    color: white;
+}
+
+.table__btn__status:disabled{
+    background-color: gray;
+}
+
+.table__btn__status:focus{
+    outline: none;
+}
+.table__email::placeholder{
+    color: blue;
+}
+
+.table__email{
+    color: blue;
+}
+
+tr:nth-child(even)  .table__input{
+    background-color: white;
+  }
+
+  tr:nth-child(even):hover .table__input{
+    background-color: #ECECEC;
+  }
