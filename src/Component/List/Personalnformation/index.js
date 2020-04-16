@@ -54,7 +54,7 @@ export class PersonalInformation extends Component {
                   className="table__input"
                   type="text"
                   placeholder="Ansteildatum"
-                  value={this.props.data[0].anstellidum}
+                  defaultValue={this.props.data[0].anstellidum}
                   disabled={this.state.disabled ? "disabled" : ""}
                 />
               </td>
@@ -66,7 +66,7 @@ export class PersonalInformation extends Component {
                   className="table__input table__email"
                   type="text"
                   placeholder="Vertragsende"
-                  value={this.props.data[0].vertragsendse}
+                  defaultValue={this.props.data[0].vertragsendse}
                   disabled={this.state.disabled ? "disabled" : ""}
                 />
               </td>
@@ -78,14 +78,14 @@ export class PersonalInformation extends Component {
                   className="table__input"
                   type="text"
                   placeholder="Kostenstile"
-                  value={this.props.data[0].kostenstile[0]}
+                  defaultValue={this.props.data[0].kostenstile[0]}
                   disabled={this.state.disabled ? "disabled" : ""}
                 />
                 <input
                   className="table__input"
                   type="text"
                   placeholder="Kostenstile"
-                  value={this.props.data[0].kostenstile[1]}
+                  defaultValue={this.props.data[0].kostenstile[1]}
                   disabled={this.state.disabled ? "disabled" : ""}
                 />
               </td>
@@ -97,7 +97,7 @@ export class PersonalInformation extends Component {
                   className="table__input"
                   type="text"
                   placeholder="Vorgestzter"
-                  value={this.props.data[0].vorgesetzter}
+                  defaultValue={this.props.data[0].vorgesetzter}
                   disabled={this.state.disabled ? "disabled" : ""}
                 />
               </td>
@@ -109,7 +109,7 @@ export class PersonalInformation extends Component {
                   className="table__input"
                   type="text"
                   placeholder="Dauer Probezeit"
-                  value={this.props.data[0].dauer}
+                  defaultValue={this.props.data[0].dauer}
                   disabled={this.state.disabled ? "disabled" : ""}
                 />
               </td>
@@ -121,7 +121,7 @@ export class PersonalInformation extends Component {
                   className="table__input"
                   type="text"
                   placeholder="Wochenstunden"
-                  value={this.props.data[0].wochenstunden}
+                  defaultValue={this.props.data[0].wochenstunden}
                   disabled={this.state.disabled ? "disabled" : ""}
                 />
               </td>
@@ -133,7 +133,7 @@ export class PersonalInformation extends Component {
                   className="table__input"
                   type="text"
                   placeholder="Kinder"
-                  value={this.props.data[0].kinder}
+                  defaultValue={this.props.data[0].kinder}
                   disabled={this.state.disabled ? "disabled" : ""}
                 />
               </td>
@@ -145,7 +145,7 @@ export class PersonalInformation extends Component {
                   className="table__input"
                   type="text"
                   placeholder="PersonalNummber"
-                  value={this.props.data[0].personalnummer}
+                  defaultValue={this.props.data[0].personalnummer}
                   disabled={this.state.disabled ? "disabled" : ""}
                 />
               </td>
@@ -157,7 +157,7 @@ export class PersonalInformation extends Component {
                   className="table__input"
                   type="text"
                   placeholder="Geburtsort"
-                  value={this.props.data[0].geburtsort}
+                  defaultValue={this.props.data[0].geburtsort}
                   disabled={this.state.disabled ? "disabled" : ""}
                 />
               </td>
@@ -168,7 +168,7 @@ export class PersonalInformation extends Component {
                 <input
                   className="table__input"
                   type="text"
-                  value={this.props.data[0].nationalist}
+                  defaultValue={this.props.data[0].nationalist}
                   placeholder="Nationalist"
                   disabled={this.state.disabled ? "disabled" : ""}
                 />
@@ -181,7 +181,7 @@ export class PersonalInformation extends Component {
                   className="table__input"
                   type="text"
                   placeholder="Studienbescheingung"
-                  value={this.props.data[0].studein}
+                  defaultValue={this.props.data[0].studein}
                   disabled={this.state.disabled ? "disabled" : ""}
                 />
               </td>
@@ -192,7 +192,7 @@ export class PersonalInformation extends Component {
                 <input
                   className="table__input"
                   type="text"
-                  value={this.props.data[0].kundi}
+                  defaultValue={this.props.data[0].kundi}
                   disabled={this.state.disabled ? "disabled" : ""}
                 />
               </td>
@@ -205,7 +205,7 @@ export class PersonalInformation extends Component {
                   className="table__input"
                   type="text"
                   placeholder="Beschaftgungast"
-                  value={this.props.data[0].besch}
+                  defaultValue={this.props.data[0].besch}
                   disabled={this.state.disabled ? "disabled" : ""}
                 />
               </td>
@@ -218,7 +218,7 @@ export class PersonalInformation extends Component {
                   className="table__input"
                   type="text"
                   placeholder="T-shirt Globe"
-                  value={this.props.data[0].tshirstgrob}
+                  defaultValue={this.props.data[0].tshirstgrob}
                   disabled={this.state.disabled ? "disabled" : ""}
                 />
               </td>

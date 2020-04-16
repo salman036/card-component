@@ -41,7 +41,7 @@ export class Offentliches extends Component {
                   className="table__input"
                   type="text"
                   placeholder="Salman"
-                  value={this.props.data[0].name}
+                  defaultValue={this.props.data[0].name}
                   disabled={this.state.disabled ? "disabled" : ""}
                   name="name"
                 />
@@ -54,7 +54,7 @@ export class Offentliches extends Component {
                   className="table__input"
                   type="text"
                   placeholder="Salman"
-                  value={this.props.data[0].gestchiest}
+                  defaultValue={this.props.data[0].gestchiest}
                   disabled={this.state.disabled ? "disabled" : ""}
                 />
               </td>
@@ -65,7 +65,7 @@ export class Offentliches extends Component {
                 <input
                   className="table__input table__link"
                   type="text"
-                  value={this.props.data[0].email}
+                  defaultValue={this.props.data[0].email}
                   placeholder="salmansaleem036@gmail.com"
                   disabled={this.state.disabled ? "disabled" : ""}
                 />
@@ -78,7 +78,7 @@ export class Offentliches extends Component {
                   className="table__input"
                   type="text"
                   placeholder="Salman"
-                  value={this.props.data[0].standort}
+                  defaultValue={this.props.data[0].standort}
                   disabled={this.state.disabled ? "disabled" : ""}
                 />
               </td>
@@ -90,7 +90,7 @@ export class Offentliches extends Component {
                   className="table__input"
                   type="text"
                   placeholder="Salman"
-                  value={this.props.data[0].gestchiest}
+                  defaultValue={this.props.data[0].gestchiest}
                   disabled={this.state.disabled ? "disabled" : ""}
                 />
               </td>
@@ -101,7 +101,7 @@ export class Offentliches extends Component {
                 <input
                   className="table__input"
                   type="text"
-                  value={this.props.data[0].handymummer}
+                  defaultValue={this.props.data[0].handymummer}
                   placeholder="Salman"
                   disabled={this.state.disabled ? "disabled" : ""}
                 />
@@ -113,7 +113,7 @@ export class Offentliches extends Component {
                 <input
                   className="table__input"
                   type="text"
-                  value={this.props.data[0].durchwahi}
+                  defaultValue={this.props.data[0].durchwahi}
                   placeholder="Salman"
                   disabled={this.state.disabled ? "disabled" : ""}
                 />
@@ -126,7 +126,7 @@ export class Offentliches extends Component {
                   className="table__input table__link"
                   type="text"
                   placeholder="Salman"
-                  value={this.props.data[0].xing}
+                  defaultValue={this.props.data[0].xing}
                   disabled={this.state.disabled ? "disabled" : ""}
                 />
               </td>
@@ -138,7 +138,7 @@ export class Offentliches extends Component {
                   className="table__input table__link"
                   type="text"
                   placeholder="Salman"
-                  value={this.props.data[0].linkedin}
+                  defaultValue={this.props.data[0].linkedin}
                   disabled={this.state.disabled ? "disabled" : ""}
                 />
               </td>
@@ -150,7 +150,7 @@ export class Offentliches extends Component {
                   className="table__input"
                   type="text"
                   placeholder="Salman"
-                  value={this.props.data[0].skypename}
+                  defaultValue={this.props.data[0].skypename}
                   disabled={this.state.disabled ? "disabled" : ""}
                 />
               </td>
@@ -161,7 +161,7 @@ export class Offentliches extends Component {
                 <input
                   className="table__input"
                   type="text"
-                  value={this.props.data[0].lieblings}
+                  defaultValue={this.props.data[0].lieblings}
                   disabled={this.state.disabled ? "disabled" : ""}
                 />
               </td>
@@ -172,7 +172,7 @@ export class Offentliches extends Component {
                 <input
                   className="table__input"
                   type="text"
-                  value={this.props.data[0].hobbies}
+                  defaultValue={this.props.data[0].hobbies}
                   disabled={this.state.disabled ? "disabled" : ""}
                 />
               </td>

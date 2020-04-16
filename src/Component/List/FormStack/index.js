@@ -3,7 +3,7 @@ import React from 'react';
 import Offentliches from '../Öffentliches/index'
 import { PersonalInformation } from '../Personalnformation/index';
 
-import {personalInformation, officialMockData} from '../../../tableMockData'
+import {personalInformation, officialMockData} from '../../../tableMockData';
 
 const FormStack = () => {
 
@@ -16,8 +16,8 @@ const FormStack = () => {
     })
     return (
         <div className="form">
-            <Offentliches data = {oficialData}/>
-            <PersonalInformation data={perosnalData}/>
+            <Offentliches data = {oficialData} className="official"/>
+            <PersonalInformation data={perosnalData} className="personel"/>
         </div>
     )
 }

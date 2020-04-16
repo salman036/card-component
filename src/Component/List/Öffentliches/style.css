@@ -13,3 +13,4 @@ tr:nth-child(even)  .table__input{
   tr:nth-child(even):hover .table__input{
     background-color: #ECECEC;
   }
+

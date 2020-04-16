@@ -1,6 +1,5 @@
 .form{
     display: flex;
-    
 }
 
 .personel{
@@ -11,6 +10,19 @@
 .official{
     flex: 50%;
 }
+
+
+@media screen and (max-width: 900px) {
+    .form {
+        flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .form {
+        flex-direction: column;
+    }
+  }
 
 .table__btn__status{
     background-color: orangered;
